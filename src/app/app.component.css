@@ -1,0 +1,28 @@
+button {
+    position: absolute;
+    top: 10px; /* Adjust the value to position it further down or up */
+    right: 10px; /* Adjust the value to position it more or less to the right */
+    margin-left: 10px; /* Adds spacing between the buttons */
+    padding: 10px 20px;
+    background-color: white;/* Button background color */
+    color: rgb(55, 172, 245);;
+    border: none;
+    /* border-color:2px solid rgb(13, 224, 231);  */
+    border: 2px solid  rgb(55, 172, 245);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Helvetica Neue,sans-serif;
+  }
+  
+  button:first-of-type {
+    right: 130px; /* Adjusts the first button to the left of the second button */
+  ;}
+  
+  button:hover {
+    background-color:rgb(5, 141, 226);/* Button background color on hover */
+    color: white;
+    font-family: Helvetica Neue,sans-serif;
+    
+
+  }
+  

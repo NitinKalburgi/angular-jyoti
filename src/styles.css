@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+  }
+  
+  .accordion-body {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
